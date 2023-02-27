@@ -55,6 +55,7 @@ def volume(cota, cotb, cotc):
 # print(floor(random()*100)+1)
 nmb_test = 10000
 count = 0
+
 for test in range(nmb_test):
     x = random()
     y = random()
@@ -62,5 +63,7 @@ for test in range(nmb_test):
     if (shoot < 1):
         count = count+1
 
-
+# *test PI calc
+# *count is in 1/4 circle
+# * count * 4 = circle and divide by number of throw
 print(count*4/nmb_test)
