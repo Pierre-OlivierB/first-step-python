@@ -52,4 +52,15 @@ def volume(cota, cotb, cotc):
 # *----------------------------------
 # !imports
 # print(random()*100)
-print(floor(random()*100)+1)
+# print(floor(random()*100)+1)
+nmb_test = 10000
+count = 0
+for test in range(nmb_test):
+    x = random()
+    y = random()
+    shoot = x*x+y*y
+    if (shoot < 1):
+        count = count+1
+
+
+print(count*4/nmb_test)
