@@ -1,3 +1,6 @@
+from random import *
+from math import *
+
 s = "coucou les gens"
 s2 = s.replace('e', 'a', 1)
 # print(s2)
@@ -35,5 +38,18 @@ def volume(cota, cotb, cotc):
     # print(vol)
     return vol
 
+# print(volume(1, 2, 3))
 
-print(volume(1, 2, 3))
+
+# AnyStr = TypeVar('AnyStr', str, bytes)
+
+
+# def cone(r: AnyStr, h: AnyStr) -> AnyStr:
+#     return 3.14*r*r*h/3
+
+
+# print(cone(1, 2))
+# *----------------------------------
+# !imports
+# print(random()*100)
+print(floor(random()*100)+1)
