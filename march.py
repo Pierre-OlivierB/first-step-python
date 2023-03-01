@@ -10,7 +10,7 @@ for tab in lst:
         # print(t)
 # print(temp, count)
 calc = temp/count
-# print(calc)
+print(calc)
 # test = 1+2+3+4+5+6+7+8+9+10+11+12
 # print(test)
 # -------------------------------------------
@@ -23,7 +23,7 @@ i = 0
 for day in lst_day:
     lst_month_count += [lst_names[i], lst_day[i]]
     i += 1
-# print(lst_month_count)
+print(lst_month_count)
 # -------------------------------
 # add to object
 i = 0
@@ -31,11 +31,11 @@ dic_month = {}
 for day in lst_day:
     dic_month[lst_names[i]] = lst_day[i]
     i += 1
-# print(dic_month)
+print(dic_month)
 # ------------------------------------
 # bisextil year
 dic_month["feb"] = 29
-# print(dic_month)
+print(dic_month)
 # ---------------------------------
 # without using max(), construct tool to return max number of list
 interger_list = [12, 50, 20, 81, 92, 1, 7]
